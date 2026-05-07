@@ -60,7 +60,7 @@ for k in filtsig[1:]:
     ema.append(alpha * k + (1 - alpha) * ema[-1])
 
 ema = np.array(ema)
-
+# Plot the different stages of the process
 plt.figure(figsize=(12, 5))
 plt.plot(x, y, color="green", alpha=0.8, linewidth=1, label="Raw data")
 plt.plot(x, filtsig, color="red", alpha=0.8, linewidth=1, label="Spike removed")
