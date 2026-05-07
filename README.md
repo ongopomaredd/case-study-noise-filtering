@@ -1,4 +1,4 @@
-#Case Study: Noise Filtering and Data Analysis for HALOBASE sensor
+# Case Study: Noise Filtering and Data Analysis for HALOBASE sensor
 
 ## Method
 Median filtering spike removal preceded by Exponential Moving Average (EMA)
